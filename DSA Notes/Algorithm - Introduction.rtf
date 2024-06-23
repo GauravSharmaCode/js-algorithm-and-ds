@@ -1,0 +1,32 @@
+Algorithms 
+Introduction
+- Clearly defined problem statement, input, and output. 
+- The steps in an algorithm needs to be in a very specific order.
+- The steps also need to be distinct.
+- The algorithm should produce a result.
+- The algorithm should complete in a finite amount of time. 
+
+
+
+( Proof Theory of Induction )
+
+
+
+
+Measures of Efficiency
+- Time Complexity
+- Space Complexity
+
+Big O 
+- Theoretical definition of the complexity of an algorithm as a function of the size.
+
+
+Binary Search Algorithm 
+1. Initialize: Set start to 0 and end to the last index of the list.
+2. Loop: Continue until start exceeds end.
+	1. Calculate Middle: Find the middle index: middle = (start + end) // 2.
+	2. Compare:
+		- If list[middle] == target, return middle.
+		- If list[middle] > target, set end = middle - 1.
+		- If list[middle] < target, set start = middle + 1.
+3. Not Found: If start exceeds end, the target is not in the list; return an indication of failure (e.g., -1 or None)
