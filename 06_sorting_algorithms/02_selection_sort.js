@@ -3,7 +3,7 @@
 // ---Examples
 // const = [-6, 20, 8, -2, 4]
 // bubbleSort(arr)=>should return [-6, -2, 4, 8, 20]
-// ------ Bubble sort idea
+// ------ Selection Sort Idea
 // Start with the entire array as unsorted.
 //Find the minimum element in the unsorted portion.
 //Swap it with the first unsorted element.

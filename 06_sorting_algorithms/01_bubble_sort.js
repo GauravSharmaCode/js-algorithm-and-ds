@@ -3,7 +3,7 @@
 // ---Examples
 // const = [-6, 20, 8, -2, 4]
 // bubbleSort(arr)=>should return [-6, -2, 4, 8, 20]
-// ------ Bubble sort idea
+// ------ Bubble sort Idea
 // Compare adjacent elements un tge arrat and swap the positions if they are not in the intended order
 // Repeat the instruction as you step through each element in the array
 // Once you step through the whole array with no swaps, the array is sorted.
