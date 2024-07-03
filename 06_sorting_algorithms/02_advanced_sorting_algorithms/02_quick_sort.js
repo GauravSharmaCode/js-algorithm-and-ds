@@ -39,5 +39,6 @@ function quickSort(arr) {
 const arr = [8, 20, -2, 4, -6];
 console.log(quickSort(arr)); // [-6, -2, 4, 8, 20]
 
-
-// Time Complexity => Big O(nlogn)
+// Time Complexity:
+// Average and Best Case: O(n log n)
+// Worst Case: O(n^2)
